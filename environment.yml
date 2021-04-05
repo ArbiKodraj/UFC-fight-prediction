@@ -1,4 +1,4 @@
-name: ufc_betting_bot
+name: ufc-bet-bot
 
 dependencies:
 - python=3.7.6
