@@ -1,0 +1,13 @@
+name: ufc_betting_bot
+
+dependencies:
+- python=3.7.6
+- numpy     
+- pandas
+- jupyterlab
+- requests
+- bs4
+- pip
+
+- pip:
+  - sklearn2pmml
