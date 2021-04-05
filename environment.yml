@@ -7,8 +7,8 @@ dependencies:
 - jupyterlab
 - requests
 - bs4
-- sklearn
 - pip
+- scikit-learn=0.23.2
 
 - pip:
   - sklearn2pmml
