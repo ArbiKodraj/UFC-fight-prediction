@@ -42,7 +42,7 @@ def splitting_data(X_data, y_data, testing_size=0.2, random_state=1):
 def prepare_model(
     X_train,
     y_train,
-    hidden_layer_sizes=(40, 34, 28),
+    hidden_layer_sizes=(28, 24, 18),
     activation="logistic",
     solver="adam",
     max_iter=10000,
@@ -62,7 +62,7 @@ def prepare_model(
         method: Neural Network Model.
     """
     clf = MLPClassifier(
-        hidden_layer_sizes=(28, 24, 18),
+        hidden_layer_sizes=hidden_layer_sizes,
         activation=activation,
         solver=solver,
         max_iter=max_iter,
