@@ -157,7 +157,7 @@ class StatsCrawler:
         return self.fighter_stats
 
 
-class FightsCralwer(StatsCrawler):
+class FightsCrawler(StatsCrawler):
     """Crawls fighting data for each fighter and their results.
 
     Args:
